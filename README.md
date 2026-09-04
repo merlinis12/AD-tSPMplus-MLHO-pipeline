@@ -14,7 +14,7 @@ diagnosis, medication, lab value, etc.) and an outcome label (e.g., incident dia
 Alzheimer's disease, "AD") and:
 
 1. Mines pairwise temporal event sequences ("A occurs before B") using the
-   [tSPM+](https://github.com/BIMIB-DISCo/tSPMPlus) algorithm.
+   [tSPM+](https://github.com/JonasHuegel/tSPMPlus_R) algorithm.
 2. Performs iterative, cross-validated feature selection over these sequences with
    [MLHO](https://github.com/hestiri/MLHO) to identify the transitions most predictive
    of the outcome.
